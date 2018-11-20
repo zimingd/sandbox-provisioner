@@ -1,8 +1,5 @@
 template_path: templates/genie.yaml
 stack_name: genie
-dependencies:
-  - essentials
-  - sandcastlevpc
 parameters:
   # AWS batch requires the instance to have pre-installed packages.
   # VEP installation
