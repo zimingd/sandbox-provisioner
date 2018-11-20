@@ -1,2 +1,2 @@
 # sandbox-provisioner
-An service to auto provision resources on AWS scicomp
+An service to auto provision resources on AWS sandbox
