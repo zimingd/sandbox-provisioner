@@ -103,7 +103,7 @@ Parameters:
   VpcName:
     Description: Name of an existing VPC to run the instance in.
     Type: String
-    Default: computevpc
+    Default: sandcastlevpc
   Department:
     Description: The department for this resource (i.e. Computational Oncology)
     Type: String
