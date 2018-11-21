@@ -499,12 +499,12 @@ Resources:
             - |
               apt -y update
             - |
-              apt -y install python-pip
+              apt -y install python-setuptools
+            - |
+              easy_install https://s3.amazonaws.com/cloudformation-examples/aws-cfn-bootstrap-latest.tar.gz
             - |
               # Install the files and packages from the metadata
-              pip install https://s3.amazonaws.com/cloudformation-examples/aws-cfn-bootstrap-latest.tar.gz
-            - |
-            - '/usr/local/bin/cfn-init -v '
+            - 'cfn-init -v '
             - '         --stack '
             - !Ref 'AWS::StackName'
             - '         --resource Ec2Instance '
