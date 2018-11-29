@@ -9,7 +9,7 @@ parameters:
  # Bucket owner's email address
  OwnerEmail: 'ziming.dong@sagebase.org'
  # only allow instance in same region to access bucket
- SameRegionResourceAccessToBucket: 'true'
+ SameRegionResourceAccessToBucket: 'false'
 hooks:
  after_create:
   - !synapse_external_bucket
